@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dropfin_Autocomplete</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v.3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Dropfin Autocomplete Extension</summary>
+    <description>Dropfin Autocomplete Extension</description>
+    <notes>Dropfin Autocomplete Extension</notes>
+    <authors><author><name>Dropfin</name><user>Dropfin</user><email>t.balamani88@gmail.com</email></author></authors>
+    <date>2016-01-25</date>
+    <time>16:21:39</time>
+    <contents><target name="magecommunity"><dir name="Dropfin"><dir name="Autosearch"><dir name="Helper"><file name="Data.php" hash="4996f6a62009f2b0888f01695569efe9"/></dir><dir name="Model"><file name="Settings.php" hash="30458a0aa2f0f4d9386b08bf3d0e8572"/></dir><dir name="controllers"><file name="IndexController.php" hash="1320ecc9d8c4542e14e63ab050c6f5cc"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4196211955aa93b4bde0b2c48161abbd"/><file name="config.xml" hash="96a499e5d0fddfeeb96d6775bae518c1"/><file name="system.xml" hash="3b7e7b810a23eb99d0f8079bc2b05095"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="dropfin"><file name="autosearch.xml" hash="6106085b934d39ac03037cbbabe33fac"/></dir></dir><dir name="template"><dir name="dropfin"><dir name="autosearch"><file name="autosearch.phtml" hash="cce00456e18c069dc5fdbc6196203c26"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dropfin_Autosearch.xml" hash="45d2c3f81a2c02b38da1ad220d7d47b7"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="dropfin"><dir name="autosearch"><dir><dir name="css"><file name="style.css" hash="376350d778267afb0ee72a734e0a38c5"/></dir><dir name="images"><file name="ajax-loader.gif" hash="dd6b7b0bf5c3af22499abc0a9ee1e1b2"/></dir><dir name="js"><file name="autocomplete.js" hash="c5a2b7da3fe25024ec960dcf010421eb"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
